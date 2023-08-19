@@ -1,0 +1,15 @@
+@mixin roboro-dark400 ($dark, $font, $fw-small) {
+    color: $dark;
+    font-family: $font;
+    font-weight: $fw-small;
+}
+@mixin roboro-white600 ($white, $font, $fw-big) {
+    color: $white;
+    font-family: $font;
+    font-weight: $fw-big;
+}
+@mixin roboro-dark600 ($dark, $font, $fw-big) {
+    color: $dark;
+    font-family: $font;
+    font-weight: $fw-big;
+}
