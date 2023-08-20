@@ -209,3 +209,55 @@ body {
     font-size: 18px;
     line-height: 25px;
 }
+.section5 {
+    background-color: $white;
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.title {
+    width: 1078px;
+    margin: 154px 154px;
+}
+.section5__container {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+}
+.section5__box {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    .developers {
+        width: 179px;
+    }
+    .developers--text {
+        margin-top: 32px;
+    }
+    .translators--text {
+        margin-top: 50px;
+    }
+}
+.managers {
+    width: 145px;
+}
+.section5__title {
+    @include roboro-dark600 ($dark, $font, $fw-big);
+    font-size: 30px;
+    line-height: 40px;
+}
+.section5__text {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    width: 409px;
+    font-size: 20px;
+    line-height: 30px; 
+}
+.section5__item {
+    text-decoration-line: underline;
+}
+.section5__link {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    font-size: 20px;
+    line-height: 30px;
+}
