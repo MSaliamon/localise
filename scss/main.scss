@@ -169,13 +169,18 @@ body {
     line-height: 30px;
 }
 .section4 {
-    padding-top: 100px;
+    padding: 100px 20px;
     width: 100%;
     background-color: $bg-bodily;
 }
 .section4__title {
     width: 890px;
     margin-bottom: 58px;
+}
+.section4__container {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
 }
 .box {
     display: flex;
