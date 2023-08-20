@@ -100,7 +100,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.section2__title {
+.title {
     @include roboro-dark600 ($dark, $font, $fw-big);
     margin: 98px 340px;
     display: flex;
@@ -121,7 +121,7 @@ body {
     gap: 250px;
     margin-bottom: 150px;
 }
-.section3__container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,13 +158,49 @@ body {
     width: 451px;
     font-size: 20px;
     line-height: 30px;
-    .section3__text-wrap {
-        text-decoration-line: underline;
-    }
+}
+.text-wrap {
+    text-decoration-line: underline;
 }
 .section3__link-text {
     @include roboro-dark600 ($dark, $font, $fw-big);
     width: 96px;
     font-size: 20px;
     line-height: 30px;
+}
+.section4 {
+    padding-top: 100px;
+    width: 100%;
+    background-color: $bg-bodily;
+}
+.section4__title {
+    width: 890px;
+    margin-bottom: 58px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+.box-element {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 330px;
+}
+.box-elelment__img {
+    width: 160px;
+    margin: 0px 85px;
+}
+.box-element__title {
+    @include roboro-dark600 ($dark, $font, $fw-big);
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+}
+.box-element__text {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
 }

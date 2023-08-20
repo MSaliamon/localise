@@ -243,7 +243,7 @@ body {
           flex-direction: column;
 }
 
-.section2__title {
+.title {
   color: #000;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
@@ -283,7 +283,7 @@ body {
   margin-bottom: 150px;
 }
 
-.section3__container {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +294,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.section3__container .text--container2 {
+.container .text--container2 {
   padding: 5.5px 0px 71px 137.906px;
 }
 
@@ -343,7 +343,8 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
-.section3__text .section3__text-wrap {
+
+.text-wrap {
   text-decoration-line: underline;
 }
 
@@ -354,4 +355,61 @@ body {
   width: 96px;
   font-size: 20px;
   line-height: 30px;
+}
+
+.section4 {
+  padding-top: 100px;
+  width: 100%;
+  background-color: #FFF8E4;
+}
+
+.section4__title {
+  width: 890px;
+  margin-bottom: 58px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 110px;
+}
+
+.box-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+  width: 330px;
+}
+
+.box-elelment__img {
+  width: 160px;
+  margin: 0px 85px;
+}
+
+.box-element__title {
+  color: #000;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.box-element__text {
+  color: #000;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
 }
