@@ -92,8 +92,7 @@ body {
 .section2 {
     margin-bottom: 100px;
     max-width: 1440px;
-    height: 455px;
-    padding: 10px 75px;
+    padding: 60px 80px;
     background-color: $bg-red;
 }
 .section2__container {
@@ -102,9 +101,10 @@ body {
 }
 .title {
     @include roboro-dark600 ($dark, $font, $fw-big);
-    margin: 98px 340px;
+    margin: 98px 380px;
     display: flex;
     text-align: center;
+    justify-content: center;
     width: 720px;
     line-height: 60px;
     font-size: 50px;
@@ -258,6 +258,130 @@ body {
 }
 .section5__link {
     @include roboro-dark400 ($dark, $font, $fw-small);
+    font-size: 20px;
+    line-height: 30px;
+}
+.section6 {
+    display: flex;
+    flex-direction: row;
+    background-color: $bg-blue;
+    padding: 75px 53px;
+}
+.section6__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section6__text1 {
+    width: 73%;
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    font-size: 30px;
+    line-height: 40px;
+}
+.section6__text2 {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    font-size: 15px;
+    line-height: 25px; 
+}
+.section6__svg {
+    width: 10%;
+}
+.section7 {
+    padding: 70px 0px;
+    background-color: $bg-broun;
+}
+.section7--box {
+    width: 58%;
+    margin-right: 70px;
+    border-right: 2px solid #000;
+}
+.section7__box {
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+}
+.section7__title {
+    display: flex;
+    @include roboro-dark600 ($dark, $font, $fw-big);
+    width: 64%;
+    font-size: 35px;
+    line-height: 50px; 
+    align-items: center;
+    justify-content: center;
+}
+.section7__content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.section7--box2 {
+    width: 10%;
+}
+.section7__content-text {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    width: 128%;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+}
+.section8 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 169px;
+    .btn {
+        margin-left: 569px;
+        max-width: 17%;
+        padding: 15px 8px;
+    }
+}
+.section8__title {
+    @include roboro-dark600 ($dark, $font, $fw-big);
+    text-align: center;
+    font-size: 65px;
+    line-height: 75px;
+}
+.section8__text {
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.section8__img-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.section8__img {
+    width: 90%;
+}
+.section9 {
+    margin-top: 162px;
+    padding: 328px 119px;
+    background-color: $bg-red;
+    .btn {
+        max-width: 185px;
+        padding: 10px 40px;
+
+        &--black {
+            margin: 20px 520px;
+            padding: 15px 42px;
+            background-color: $dark;
+            color: $white;
+        }
+    }
+}
+.section9__title {
+    @include roboro-dark600 ($dark, $font, $fw-big);
+    text-align: center;
+    font-size: 65px;
+    line-height: 75px;
+}
+.section9__text {
+    margin: 29px 0px;
+    @include roboro-dark400 ($dark, $font, $fw-small);
+    text-align: center;
     font-size: 20px;
     line-height: 30px;
 }
