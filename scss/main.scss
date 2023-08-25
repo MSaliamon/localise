@@ -452,10 +452,13 @@ body {
     gap: 15px;
     padding: 21px 75px 0px 0px;
 }
+
 .footer__link-item {
+    display: flex;
     @include roboro-dark400 ($dark, $font, $fw-small);
     font-size: 15px;
     line-height: 15px;
+    width: 150%;
 }
 .footer__container-wrapper {
     display: flex;

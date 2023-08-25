@@ -824,11 +824,15 @@ body {
 }
 
 .footer__link-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #000;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
+  width: 150%;
 }
 
 .footer__container-wrapper {
